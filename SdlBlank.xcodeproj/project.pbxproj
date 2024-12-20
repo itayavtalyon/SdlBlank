@@ -6,22 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		66BA70572D15874D000D9D8F /* SDL3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BA70532D0C78AC000D9D8F /* SDL3.framework */; };
-		66BA70772D1599E7000D9D8F /* SDL3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BA70532D0C78AC000D9D8F /* SDL3.framework */; };
-		66BA70782D1599EC000D9D8F /* SDL3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BA70532D0C78AC000D9D8F /* SDL3.framework */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		66BA70522D0C78AC000D9D8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 66BA701D2D0C7887000D9D8F /* SDL 2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BECDF66C0761BA81005FE872;
-			remoteInfo = SDL3;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		6649A5B72D02258300F25FFA /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -36,67 +20,64 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6649A5592D02227F00F25FFA /* SdlTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SdlTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6649A56E2D02227F00F25FFA /* SdlTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SdlTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6649A5822D02227F00F25FFA /* SdlTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SdlTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6649A5592D02227F00F25FFA /* SdlBlank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SdlBlank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6649A56E2D02227F00F25FFA /* SdlBlank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SdlBlank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6649A5822D02227F00F25FFA /* SdlBlank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SdlBlank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6649A5BF2D0C333F00F25FFA /* SDL 2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "SDL 2.xcodeproj"; sourceTree = "<group>"; };
-		66BA701D2D0C7887000D9D8F /* SDL 2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "SDL 2.xcodeproj"; sourceTree = "<group>"; };
+		66BA701D2D0C7887000D9D8F /* SDLCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SDLCore.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		6649A5992D02227F00F25FFA /* Exceptions for "SdlTwo Shared" folder in "SdlTwo iOS" target */ = {
+		6649A5992D02227F00F25FFA /* Exceptions for "SdlBlank Shared" folder in "SdlBlank iOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"/Users/itay/Documents/Code/SdlTwo/SdlTwo Shared/Info-Framework.plist",
 				Assets.xcassets,
 				main.c,
 			);
-			target = 6649A5582D02227F00F25FFA /* SdlTwo iOS */;
+			target = 6649A5582D02227F00F25FFA /* SdlBlank iOS */;
 		};
-		6649A59D2D02227F00F25FFA /* Exceptions for "SdlTwo Shared" folder in "SdlTwo tvOS" target */ = {
+		6649A59D2D02227F00F25FFA /* Exceptions for "SdlBlank Shared" folder in "SdlBlank tvOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"/Users/itay/Documents/Code/SdlTwo/SdlTwo Shared/Info-Framework.plist",
 				Assets.xcassets,
 				main.c,
 			);
-			target = 6649A56D2D02227F00F25FFA /* SdlTwo tvOS */;
+			target = 6649A56D2D02227F00F25FFA /* SdlBlank tvOS */;
 		};
-		6649A5A12D02227F00F25FFA /* Exceptions for "SdlTwo Shared" folder in "SdlTwo macOS" target */ = {
+		6649A5A12D02227F00F25FFA /* Exceptions for "SdlBlank Shared" folder in "SdlBlank macOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"/Users/itay/Documents/Code/SdlTwo/SdlTwo Shared/Info-Framework.plist",
 				Assets.xcassets,
 				main.c,
 			);
-			target = 6649A5812D02227F00F25FFA /* SdlTwo macOS */;
+			target = 6649A5812D02227F00F25FFA /* SdlBlank macOS */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6649A54F2D02227C00F25FFA /* SdlTwo Shared */ = {
+		6649A54F2D02227C00F25FFA /* SdlBlank Shared */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				6649A5992D02227F00F25FFA /* Exceptions for "SdlTwo Shared" folder in "SdlTwo iOS" target */,
-				6649A59D2D02227F00F25FFA /* Exceptions for "SdlTwo Shared" folder in "SdlTwo tvOS" target */,
-				6649A5A12D02227F00F25FFA /* Exceptions for "SdlTwo Shared" folder in "SdlTwo macOS" target */,
+				6649A5992D02227F00F25FFA /* Exceptions for "SdlBlank Shared" folder in "SdlBlank iOS" target */,
+				6649A59D2D02227F00F25FFA /* Exceptions for "SdlBlank Shared" folder in "SdlBlank tvOS" target */,
+				6649A5A12D02227F00F25FFA /* Exceptions for "SdlBlank Shared" folder in "SdlBlank macOS" target */,
 			);
-			path = "SdlTwo Shared";
+			path = "SdlBlank Shared";
 			sourceTree = "<group>";
 		};
-		6649A55B2D02227F00F25FFA /* SdlTwo iOS */ = {
+		6649A55B2D02227F00F25FFA /* SdlBlank iOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "SdlTwo iOS";
+			path = "SdlBlank iOS";
 			sourceTree = "<group>";
 		};
-		6649A56F2D02227F00F25FFA /* SdlTwo tvOS */ = {
+		6649A56F2D02227F00F25FFA /* SdlBlank tvOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "SdlTwo tvOS";
+			path = "SdlBlank tvOS";
 			sourceTree = "<group>";
 		};
-		6649A5832D02227F00F25FFA /* SdlTwo macOS */ = {
+		6649A5832D02227F00F25FFA /* SdlBlank macOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "SdlTwo macOS";
+			path = "SdlBlank macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -106,7 +87,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66BA70782D1599EC000D9D8F /* SDL3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +94,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66BA70772D1599E7000D9D8F /* SDL3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +101,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66BA70572D15874D000D9D8F /* SDL3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +110,10 @@
 		6649A54A2D02227C00F25FFA = {
 			isa = PBXGroup;
 			children = (
-				6649A54F2D02227C00F25FFA /* SdlTwo Shared */,
-				6649A55B2D02227F00F25FFA /* SdlTwo iOS */,
-				6649A56F2D02227F00F25FFA /* SdlTwo tvOS */,
-				6649A5832D02227F00F25FFA /* SdlTwo macOS */,
+				6649A54F2D02227C00F25FFA /* SdlBlank Shared */,
+				6649A55B2D02227F00F25FFA /* SdlBlank iOS */,
+				6649A56F2D02227F00F25FFA /* SdlBlank tvOS */,
+				6649A5832D02227F00F25FFA /* SdlBlank macOS */,
 				6649A5B32D02256D00F25FFA /* Frameworks */,
 				6649A55A2D02227F00F25FFA /* Products */,
 			);
@@ -144,9 +122,9 @@
 		6649A55A2D02227F00F25FFA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6649A5592D02227F00F25FFA /* SdlTwo.app */,
-				6649A56E2D02227F00F25FFA /* SdlTwo.app */,
-				6649A5822D02227F00F25FFA /* SdlTwo.app */,
+				6649A5592D02227F00F25FFA /* SdlBlank.app */,
+				6649A56E2D02227F00F25FFA /* SdlBlank.app */,
+				6649A5822D02227F00F25FFA /* SdlBlank.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,10 +143,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		66BA70202D0C7887000D9D8F /* Products */ = {
+		66BA707A2D159BE4000D9D8F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				66BA70532D0C78AC000D9D8F /* SDL3.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,9 +153,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6649A5582D02227F00F25FFA /* SdlTwo iOS */ = {
+		6649A5582D02227F00F25FFA /* SdlBlank iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6649A59A2D02227F00F25FFA /* Build configuration list for PBXNativeTarget "SdlTwo iOS" */;
+			buildConfigurationList = 6649A59A2D02227F00F25FFA /* Build configuration list for PBXNativeTarget "SdlBlank iOS" */;
 			buildPhases = (
 				6649A5552D02227F00F25FFA /* Sources */,
 				6649A5562D02227F00F25FFA /* Frameworks */,
@@ -190,18 +167,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6649A55B2D02227F00F25FFA /* SdlTwo iOS */,
+				6649A55B2D02227F00F25FFA /* SdlBlank iOS */,
 			);
-			name = "SdlTwo iOS";
+			name = "SdlBlank iOS";
 			packageProductDependencies = (
 			);
 			productName = "SdlTwo iOS";
-			productReference = 6649A5592D02227F00F25FFA /* SdlTwo.app */;
+			productReference = 6649A5592D02227F00F25FFA /* SdlBlank.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6649A56D2D02227F00F25FFA /* SdlTwo tvOS */ = {
+		6649A56D2D02227F00F25FFA /* SdlBlank tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6649A59E2D02227F00F25FFA /* Build configuration list for PBXNativeTarget "SdlTwo tvOS" */;
+			buildConfigurationList = 6649A59E2D02227F00F25FFA /* Build configuration list for PBXNativeTarget "SdlBlank tvOS" */;
 			buildPhases = (
 				6649A56A2D02227F00F25FFA /* Sources */,
 				6649A56B2D02227F00F25FFA /* Frameworks */,
@@ -212,18 +189,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6649A56F2D02227F00F25FFA /* SdlTwo tvOS */,
+				6649A56F2D02227F00F25FFA /* SdlBlank tvOS */,
 			);
-			name = "SdlTwo tvOS";
+			name = "SdlBlank tvOS";
 			packageProductDependencies = (
 			);
 			productName = "SdlTwo tvOS";
-			productReference = 6649A56E2D02227F00F25FFA /* SdlTwo.app */;
+			productReference = 6649A56E2D02227F00F25FFA /* SdlBlank.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6649A5812D02227F00F25FFA /* SdlTwo macOS */ = {
+		6649A5812D02227F00F25FFA /* SdlBlank macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6649A5A22D02227F00F25FFA /* Build configuration list for PBXNativeTarget "SdlTwo macOS" */;
+			buildConfigurationList = 6649A5A22D02227F00F25FFA /* Build configuration list for PBXNativeTarget "SdlBlank macOS" */;
 			buildPhases = (
 				6649A57E2D02227F00F25FFA /* Sources */,
 				6649A57F2D02227F00F25FFA /* Frameworks */,
@@ -234,13 +211,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6649A5832D02227F00F25FFA /* SdlTwo macOS */,
+				6649A5832D02227F00F25FFA /* SdlBlank macOS */,
 			);
-			name = "SdlTwo macOS";
+			name = "SdlBlank macOS";
 			packageProductDependencies = (
 			);
 			productName = "SdlTwo macOS";
-			productReference = 6649A5822D02227F00F25FFA /* SdlTwo.app */;
+			productReference = 6649A5822D02227F00F25FFA /* SdlBlank.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -263,7 +240,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6649A54E2D02227C00F25FFA /* Build configuration list for PBXProject "SdlTwo" */;
+			buildConfigurationList = 6649A54E2D02227C00F25FFA /* Build configuration list for PBXProject "SdlBlank" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -281,28 +258,18 @@
 					ProjectRef = 6649A5BF2D0C333F00F25FFA /* SDL 2.xcodeproj */;
 				},
 				{
-					ProductGroup = 66BA70202D0C7887000D9D8F /* Products */;
-					ProjectRef = 66BA701D2D0C7887000D9D8F /* SDL 2.xcodeproj */;
+					ProductGroup = 66BA707A2D159BE4000D9D8F /* Products */;
+					ProjectRef = 66BA701D2D0C7887000D9D8F /* SDLCore.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				6649A5582D02227F00F25FFA /* SdlTwo iOS */,
-				6649A56D2D02227F00F25FFA /* SdlTwo tvOS */,
-				6649A5812D02227F00F25FFA /* SdlTwo macOS */,
+				6649A5582D02227F00F25FFA /* SdlBlank iOS */,
+				6649A56D2D02227F00F25FFA /* SdlBlank tvOS */,
+				6649A5812D02227F00F25FFA /* SdlBlank macOS */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		66BA70532D0C78AC000D9D8F /* SDL3.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SDL3.framework;
-			remoteRef = 66BA70522D0C78AC000D9D8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6649A5572D02227F00F25FFA /* Resources */ = {
@@ -374,7 +341,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = itay.avtalyon.SdlTwo;
-				PRODUCT_NAME = SdlTwo;
+				PRODUCT_NAME = SdlBlank;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -402,7 +369,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = itay.avtalyon.SdlTwo;
-				PRODUCT_NAME = SdlTwo;
+				PRODUCT_NAME = SdlBlank;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -428,7 +395,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = itay.avtalyon.SdlTwo;
-				PRODUCT_NAME = SdlTwo;
+				PRODUCT_NAME = SdlBlank;
 				SDKROOT = appletvos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -454,7 +421,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = itay.avtalyon.SdlTwo;
-				PRODUCT_NAME = SdlTwo;
+				PRODUCT_NAME = SdlBlank;
 				SDKROOT = appletvos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -496,7 +463,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = itay.avtalyon.SdlTwo;
-				PRODUCT_NAME = SdlTwo;
+				PRODUCT_NAME = SdlBlank;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
@@ -535,7 +502,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = itay.avtalyon.SdlTwo;
-				PRODUCT_NAME = SdlTwo;
+				PRODUCT_NAME = SdlBlank;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
@@ -679,7 +646,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6649A54E2D02227C00F25FFA /* Build configuration list for PBXProject "SdlTwo" */ = {
+		6649A54E2D02227C00F25FFA /* Build configuration list for PBXProject "SdlBlank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6649A5A52D02227F00F25FFA /* Debug */,
@@ -688,7 +655,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6649A59A2D02227F00F25FFA /* Build configuration list for PBXNativeTarget "SdlTwo iOS" */ = {
+		6649A59A2D02227F00F25FFA /* Build configuration list for PBXNativeTarget "SdlBlank iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6649A59B2D02227F00F25FFA /* Debug */,
@@ -697,7 +664,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6649A59E2D02227F00F25FFA /* Build configuration list for PBXNativeTarget "SdlTwo tvOS" */ = {
+		6649A59E2D02227F00F25FFA /* Build configuration list for PBXNativeTarget "SdlBlank tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6649A59F2D02227F00F25FFA /* Debug */,
@@ -706,7 +673,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6649A5A22D02227F00F25FFA /* Build configuration list for PBXNativeTarget "SdlTwo macOS" */ = {
+		6649A5A22D02227F00F25FFA /* Build configuration list for PBXNativeTarget "SdlBlank macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6649A5A32D02227F00F25FFA /* Debug */,
