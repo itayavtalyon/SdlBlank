@@ -2876,7 +2876,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0073178E0858DB0500B2BC32 /* Build configuration list for PBXProject "SDL 2" */;
+			buildConfigurationList = 0073178E0858DB0500B2BC32 /* Build configuration list for PBXProject "SDLCore" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 1;
@@ -3456,7 +3456,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		0073178E0858DB0500B2BC32 /* Build configuration list for PBXProject "SDL 2" */ = {
+		0073178E0858DB0500B2BC32 /* Build configuration list for PBXProject "SDLCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00CFA627106A568900758660 /* Debug */,
